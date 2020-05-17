@@ -1,0 +1,49 @@
+* {
+    vertical-align: middle; 
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+    width: 100%;
+}
+
+a {
+    display: block;
+    background-color: #000;
+    color: #FFF;
+    padding: 5px;
+    margin: 5px 0;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.menu_item {
+    margin: 0 15px;
+    font-weight: bold;
+}
+.menu_header{
+    background-color: #000;
+    line-height: 200%;
+    padding: 5px;
+    color:#FFF;
+}
+#foto {
+    width: 400px;
+    height: auto;
+    opacity: 0.5;
+}
+#foto:hover {
+    opacity: 1;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,34 @@
+* {
+  padding: 0px;
+}
+#main{
+    width: 200px;
+}
+ul li { /* Стиль применяются для ul находящемся в li*/
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 24px;
+}  
+a {/* Стиль применяется для закрытых вкладок*/
+  display: block;
+  background-color: #000;
+  margin: 3px;
+  padding: 3px;
+  color:#FFF;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Times New Roman;
+}  
+
+ul li a:hover {/* Стиль при наведении курсора*/
+  color:#777;
+  background-color:#003;
+  text-decoration: none;
+}  
+
+ul li ul li a {/* Стиль для ссылки в подменю */
+  color: #9ECAF4;
+}  
+ul li ul li a:hover {/* Стиль подменю при наведении курсора*/
+  color: #777;
+}

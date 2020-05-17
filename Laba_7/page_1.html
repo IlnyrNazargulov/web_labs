@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Раздвижное меню</title>
+	<script src="main_1.js"></script>
+	<link type="text/css" rel="stylesheet" href="style_1.css">
+</head>
+<body>
+	<div id="main">
+		<ul>
+			<li>
+				<a href="#" onclick="changeMenuItem('menu_item_1')">Сообщение</a>
+				<ul id="menu_item_1" class="sub_menu">
+					<li><a href="#" class="li_a" onclick="alert('Подменю 1.1');">Подменю 1.1</a></li>
+					<li><a href="#" class="li_a" onclick="alert('Подменю 1.2');">Подменю 1.2</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" onclick="changeMenuItem('menu_item_2')">Фон</a>
+				<ul id="menu_item_2" class="sub_menu">
+					<li><a href="#" onclick="changeBackgroundColor('black')">Сделать фон черным</a></li>
+					<li><a href="#" onclick="changeBackgroundColor('white')">Сделать фон белым</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#" onclick="changeMenuItem('menu_item_3')">Ссылки</a>
+				<ul id="menu_item_3" class="sub_menu">
+					<li><a href="https://translate.google.com/?hl=ru&tab=TT">Переводчик</a></li>
+					<li><a href="https://www.w3schools.com/html/default.asp">HtmlSchool</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
