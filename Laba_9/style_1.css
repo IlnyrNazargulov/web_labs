@@ -1,0 +1,20 @@
+* {
+  padding: 0px;
+  margin:0px;
+}
+body{
+  margin: 0 10px;
+}
+p{
+  text-indent:20px;
+}
+.gallery_item{
+  border-radius: 15px;
+  flex: 1;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+#addText{
+  font-size: 150%;
+}
