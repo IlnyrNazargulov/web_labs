@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="utf-8"><meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<head><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="utf-8"><meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<title>Обратная связь</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
@@ -90,11 +90,6 @@
 		var data = { sender: sender.value, message: message_text.value};
 		$.ajax({
 			type: 'POST',
-			headers: {  
-				'Access-Control-Allow-Origin': '*',
-				'Access-Control-Allow-Methods': '*',
-				'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token' 
-			},
 			url: "http://34.77.151.173/api/message",
 			contentType: 'application/json',
 			dataType: "json",
