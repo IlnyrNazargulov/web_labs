@@ -1,0 +1,26 @@
+#block1{
+	border-radius: 10px;
+	border: 5px solid #68417f;
+	font: bold italic 12pt cambria; /* шрифт */
+	background-color: #219bc3; /* Цвет первого блока */
+	color: #b2d3e1; /*цвет текста */
+}
+#block3{
+	border: 4px double black;
+	font: bold italic 5mm cambria;  /* шрифт */
+	background-color: #f2cfda; /* Цвет первого блока */
+	text-indent: 20px; /* красная строка */
+	vertical-align:  top; /* вертикальное вырванивание */
+}
+/* для всех ul находящиеся в #block5 */ 
+#block4 ul { 
+
+	list-style-type: square; /* Маркеры в виде квадрата */
+	color: navy; /* Цвет текста списка */
+}
+/* для всех ul находящиеся в #block5 */
+#block5 ul { 
+	list-style-image: url(img4.png); /* иконка для маркера в виде изображения */
+	color: navy; /* Цвет текста списка */
+	list-style-position: inside /* размещение маркера относительно текста */
+}

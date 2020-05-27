@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8">
+	<title>Page 1</title>
+	<style>
+		form {
+			margin: 5px;
+		}
+		form * {
+			margin: 5px 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<form>
+			<div>
+				<label for = "mail">Почта</label>
+				<input id = "mail" title="Введите почту для отправки листа бронирования" required />
+			</div>
+			<div>
+				<p><label for = "comments">Пожелания</label></p>
+				<p><textarea id = "comments" rows = 10 cols = 45></textarea></p>
+			</div> 
+			<div>
+				<label for = "pass">Пароль</label>
+				<input id = "pass" title="Введите пароль" type = "password" required/>
+			</div>
+			<div>
+				<label for = "meal">Тип питания</label>
+				<input name = "meal" id = "meal_bb" type = "radio" checked />BB
+				<input name = "meal" id = "meal_fb" type = "radio" /> FB
+				<input name = "meal" id = "meal_in" type = "radio" /> IN
+			</div>
+			<div>
+				<label for = "transport_type">Тип транспорта</label>
+				<input name = "transport_type" type = "radio" checked /> Самолет
+				<input name = "transport_type" type = "radio" /> Поезд
+				<input name = "transport_type" type = "radio" /> Паром
+			</div>
+			<div>
+				<label>Дополнительные услуги</label>
+				<p><input type = "checkbox" name = "dop" />Экскурсия</p>
+				<p><input type = "checkbox" name = "dop" />Путеводитель</p>
+				<p><input type = "checkbox" name = "dop" >Развлечения</p>
+			</div>
+			<div>
+				<label>Добавить</label>
+				<p><input type = "checkbox" name = "dop" />Страховку</p>
+				<p><input type = "checkbox" name = "dop" />Перелет</p>
+				<p><input type = "checkbox" name = "dop" >Трансфер</p>
+			</div>
+			<div>
+				<label>Направление</label>
+				<p title = "Выберите страну из списка">
+					<select required>
+						<option disabled selected>Турция</option>
+						<option>Вьетнам</option>
+						<option>Италия</option>
+						<option>Испания</option>
+						<option>Мальдивы</option>
+					</select>
+				</p>
+			</div>
+			<div>
+				<label for = "arrival_date">Дата вылета</label>
+				<input type = "date" id = "arrival_date" title = "Введите дату вылета" required />
+			</div>
+			<button>Сделать заказ</button>
+		</form>
+	</div>
+</body>
+</html>

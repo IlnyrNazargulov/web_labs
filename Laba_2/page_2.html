@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Page 2</title>
+</head>
+<body class="text-center">
+	<p>Навигация по странице</p>
+	<ul>
+		<li><a href="#head">Начало</a></li>
+		<li><a href="#center">Середина</a></li>
+		<li><a href="#blank_text">Пустой текст</a></li>
+		<li><a href="#footer">Самый самый низ</a></li>
+	</ul>
+	<a id="head"></a>
+	<h2>Использование ролей и баз данных PostgreSQL</h2>
+	<p>
+		<strong>По умолчанию</strong> <em>Postgres</em> использует концепцию ролей для осуществления аутентификации и авторизации. Они, в некотором роде, подобны Unix аккаунтам, но Postgres не делает различий между пользователями и группами, а вместо этого предпочитает более гибкий термин “роль”.
+	</p>
+	<p>
+		После установки Postgres настраивает <em>так называемую идентичную аутентификацию</em> (ident authentication). Это означает, что <strong>Postgres</strong> ассоциирует свои роли с подходящими Unix/Linux аккаунтами. Если роль существует в Postgres, пользователь с этим же именем в <em>Unix/Linux</em> сможет осуществлять вход под этой ролью.
+	</p>
+	<p>
+		Существует несколько способов использовать это для доступа к <strong>Postgres</strong>.
+	</p>
+	<h2>Переключение на аккаунт postgres</h2>
+	<p>В процессе установки был создан аккаунт пользователя с именем postgres, который был ассоциирован с ролью Postgres по умолчанию. Для использования Postgres мы можем осуществить вход с этим аккаунтом.</p>
+	<p>Переключимся на использование postgres аккаунта на вашем сервере этой командой:</p>
+	<blockquote>$ sudo -i -u postgres</blockquote>
+	<hr>
+	<p>Базовый синтаксис для этой команды выглядит примерно так:</p>
+	<pre>
+		CREATE TABLE table_name (
+		column_name1 col_type (field_length) column_constraints,
+		column_name2 col_type (field_length),
+		column_name3 col_type (field_length)
+		);
+	</pre>
+	<hr>
+	<a id="center"></a>
+	<p>Список дел</p>
+	<ol start="1">
+		<li>Понедельник
+			<ul>
+				<li>Позавтракать</li>
+				<li>Пойти на учебу</li>
+				<li>Сходить на работу</li>
+				<li>Лечь спать</li>
+			</ul>
+		</li>
+		<li>Вторник
+			<ul>
+				<li>Встать</li>
+				<li>Начистить берцы</li>
+				<li>Пойти на воеку</li>
+			</ul>
+		</li>
+	</ol>
+	<p>
+		<details>
+			<summary>10 полезных свойств хурмы</summary>
+			<p>
+				Хурма содержит достаточное и полноценное количество полезных микроэлементов, и обладает множеством незаменимых и очень полезных свойств, - говорит член ассоциации нутрициологов, врач-диетолог Людмила Денисенко. – Не самый главный, но все же существенный - благодаря обилию глюкозы и фруктозы двумя-тремя плодами хурмы можно утолить голод. И хотя меди и цинка в яблоках больше, этот фрукт первенствует по содержанию натрия, калия, магния, кальция, железа. Да и пищевых волокон в хурме на порядок больше, чем в яблоках. Спелые плоды способствуют улучшению работы желудочно-кишечного тракта, печени, зрения, нормализуют работу кожи и половых желез.
+			</p>
+		</details>
+	</p>
+	<hr>
+	<p>Часть кода с вложенным списком</p>
+	<pre>
+	&ltli&gtПонедельник&lt/li&gt
+		&ltul&gt
+		&ltli&gtПозавтракать&lt/li&gt
+		&ltli&gtПойти на учебу&lt/li&gt
+		&ltli&gtСходить на работу&lt/li&gt
+		&ltli&gtЛечь спать&lt/li&gt
+	</pre>
+	<hr>
+	<a id="blank_text"></a>
+	<p>Пустой текст что-бы не влезала страница</p>
+	<p>Enim incididunt eu reprehenderit magna in veniam sint proident proident cillum aute sit tempor in sit. Proident qui excepteur do incididunt nulla ut pariatur sed ea in velit esse nostrud pariatur ea nostrud ut ea. Laborum exercitation deserunt tempor labore ut aliquip anim anim do culpa cillum. Lorem ipsum sed in dolor dolor anim voluptate aute amet aute incididunt eu in sint ad aliqua ut duis dolor velit. Ut mollit consequat in voluptate velit dolor ea quis dolore deserunt excepteur nisi do. In excepteur velit id do aute dolor in irure anim ullamco irure ex sint ex officia. Sit ea anim commodo magna irure elit voluptate in. In sunt incididunt in laborum laborum dolor ut in excepteur exercitation labore pariatur. Enim commodo minim elit qui est nulla in id in amet ut duis pariatur. Ullamco ut do dolor sunt dolore excepteur et sunt. Magna dolore nisi ut dolore dolor anim quis amet ea excepteur ex et. Duis pariatur do exercitation dolor ut labore duis ut ullamco sunt labore occaecat proident. Dolor mollit aliquip est aliquip aute sit anim occaecat mollit ut ut. Cupidatat culpa aliqua do enim pariatur aliquip consequat voluptate est dolor. Laboris dolore velit ut officia elit consectetur eiusmod adipisicing in officia consectetur reprehenderit dolor do. Sed ut fugiat sit labore cillum excepteur laborum est dolor est aute do sed. Reprehenderit magna dolore nostrud aliquip sed sed ut commodo sed dolor excepteur sunt veniam. Lorem ipsum non anim nulla pariatur aliqua duis tempor in minim incididunt in pariatur. Lorem ipsum reprehenderit elit et esse ut nulla dolor sint ullamco dolore fugiat velit labore deserunt consectetur. Adipisicing sed et anim proident do anim et labore ullamco aute. Do enim magna dolore ea occaecat ex in esse eiusmod aliquip. Officia et labore laborum ut excepteur veniam in nulla eiusmod ad commodo voluptate labore laboris non. Lorem ipsum consequat proident dolore quis pariatur consequat esse non duis culpa dolore ad nisi minim cillum occaecat qui irure. Fugiat id incididunt est eu dolor irure pariatur sint ex sit in duis sed ut et nulla.</p>
+	<hr>
+	<p>Гиперссылки:</p>
+	<a href="page_1.html" target="_blank">Перейти на первую страницу</a><br>
+	<a href="page_1.html" target="_blank"><img src="img2.jpg" width="250" height="250"></a>
+	<a id="footer"></a>
+</body>
+</body>
+</html>
