@@ -18,13 +18,13 @@ public class MessageController {
     private MessageService messageService;
 
     @GetMapping
-    public ResponseEntity<MessageResponse> getRoutes() {
+    public ResponseEntity<MessageResponse> getMessages() {
         List<Message> allMessage = messageService.getAllMessage();
         return new ResponseEntity<>(new MessageResponse(allMessage), HttpStatus.OK);
     }
 
     @PostMapping()
-    public ResponseEntity updateRoute(@RequestBody Message message) {
+    public ResponseEntity addMessage(@RequestBody Message message) {
         messageService.addMessage(message);
         return new ResponseEntity(HttpStatus.OK);
     }
