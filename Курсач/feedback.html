@@ -61,6 +61,7 @@
 		$.ajax({
 			url: "http://34.77.151.173/api/message",
 			type: 'GET',
+			headers: {  'Access-Control-Allow-Origin': '*' },
 			dataType: 'json',
 			success: function(res) {
 				var messages=res.messages;
@@ -89,6 +90,11 @@
 		var data = { sender: sender.value, message: message_text.value};
 		$.ajax({
 			type: 'POST',
+			headers: {  
+				'Access-Control-Allow-Origin': '*',
+				'Access-Control-Allow-Methods': '*',
+				'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token' 
+			},
 			url: "http://34.77.151.173/api/message",
 			contentType: 'application/json',
 			dataType: "json",

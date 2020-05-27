@@ -4,16 +4,13 @@
     margin: 0px;
     padding: 0px;
 }
-
 .hide {
     visibility: hidden;
 }
-
 .show {
     visibility: visible;
     width: 100%;
 }
-
 a {
     display: block;
     background-color: #000;
@@ -23,7 +20,6 @@ a {
     line-height: 150%;
     text-decoration: none;
 }
-
 .menu_item {
     margin: 0 15px;
     font-weight: bold;
