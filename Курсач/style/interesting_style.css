@@ -1,0 +1,13 @@
+.facts {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+.fact_item {
+	padding: 5px;
+	background-color: #6D7EB1;
+	border-radius: 10px;
+	font-size: 18px;
+	margin: 10px;
+	width: 240px;
+}

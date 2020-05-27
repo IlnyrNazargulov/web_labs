@@ -1,0 +1,65 @@
+#message_form {
+	margin: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.textField {
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid #C36864;
+	background-color: #6D7EB1;
+	font-size: 20px;
+}
+.message {
+	margin:10px 0;
+	background-color: #4A5984;
+	padding: 5px;
+	border-radius: 10px;
+}
+.message p {
+	margin: 10px;
+	padding: 5px;
+	background-color: #6D7EB1;
+	text-align: left;
+	border-radius: 10px;
+}
+textarea{
+	box-sizing:content-box;
+	margin: 10px;
+	padding: 10px;
+	width: 300px;
+	background-color:#6D7EB1;
+	font-size: 20px; 
+	border: 1px solid #C36864;
+	resize : none;
+	overflow : hidden;
+}
+a.custom_button {
+	margin: 10px;
+	width: 300px;
+	font-weight: 700;
+	color: #DDDF62;
+	text-decoration: none;
+	padding: .8em 1em calc(.8em + 3px);
+	border-radius: 3px;
+	background: #6D7EB1;
+	box-shadow: 0 -3px #DF6862 inset;
+	transition: 0.2s;
+} 
+a.custom_button:hover { background: #6477B1; }
+a.custom_button:active {
+	background: #6D7EB1;
+	box-shadow: 0 3px #E5E783 inset;
+}
+::placeholder {
+	color: #C2C363;
+}
+::-webkit-input-placeholder {
+	color: #C2C363;
+}
+
+:-ms-input-placeholder {
+	color: #C2C363;
+}

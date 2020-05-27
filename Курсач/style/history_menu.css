@@ -1,0 +1,24 @@
+.history_menu {
+
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	margin: 15px;
+}
+.history_menu_item img{
+	width: 800px;
+	height: 250px;
+	border-radius: 30px;
+}
+.history_menu_item a{
+	text-decoration: none;
+}
+.history_menu_item h2{
+	position: relative;
+	letter-spacing: 5px;
+	top: -150px;
+	width: 100%;
+	color: #DDDF62;
+	-webkit-text-stroke: 2px #B8433D;
+	font-size: 35px;
+}
