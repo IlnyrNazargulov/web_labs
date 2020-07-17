@@ -23,7 +23,7 @@ public class MessageController {
         return new ResponseEntity<>(new MessageResponse(allMessage), HttpStatus.OK);
     }
 
-    @PostMapping()
+    @PostMapping
     public ResponseEntity addMessage(@RequestBody Message message) {
         messageService.addMessage(message);
         return new ResponseEntity(HttpStatus.OK);
