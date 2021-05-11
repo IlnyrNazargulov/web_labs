@@ -1,0 +1,4 @@
+languageCode:           "en"
+title:                  "Bootstrap"
+baseURL:                "https://getbootstrap.com"
+enableInlineShortcodes: true
